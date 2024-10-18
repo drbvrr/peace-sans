@@ -70,7 +70,7 @@ h2 {
     height: 825px;
     width: 827px;
 }
-#us {
+.section-2 #us {
     position: relative;
     left: 925px;
     top: 12px;
@@ -81,18 +81,56 @@ h2 {
     line-height: 17px;
     letter-spacing: -3%;
 }
-#A {
+.section-2 #A {
     position: relative;
     font-size: 47px;
     -webkit-text-stroke: 2px #EC1D23;
     color: #F1EEE7;
-    transform: rotate(16.66deg);
+    transform: rotate(17deg);
     left: 563px;
     width: 37px;
     top: 60px;
 }
-
-
+.section-2 #G {
+    position: relative;
+    font-size: 47px;
+    -webkit-text-stroke: 2px #EC1D23;
+    color: #F1EEE7;
+    transform: rotate(-70deg);
+    left: 465px;
+    width: 29px;
+    top: 215px;
+}
+.section-2 #J {
+    position: relative;
+    font-size: 28px;
+    -webkit-text-stroke: 2px #EC1D23;
+    color: #F1EEE7;
+    transform: rotate(70deg);
+    width: 32px;
+    left: 434px;
+    top: 321px;
+}
+.section-2 #f {
+    position: relative;
+    font-size: 47px;
+    -webkit-text-stroke: 2px #EC1D23;
+    color: #F1EEE7;
+    transform: rotate(40deg);
+    width: 22px;
+    left: 662px;
+    top: 293px;
+}
+.section-2 #M {
+    position: relative;
+    font-size: 36px;
+    -webkit-text-stroke: 2px #EC1D23;
+    color: #F1EEE7;
+    transform: rotate(-97deg);
+    width: 40px;
+    left: 814px;
+    top: 138px;  
+}
 
 
 
