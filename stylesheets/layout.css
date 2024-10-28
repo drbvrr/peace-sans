@@ -21,13 +21,6 @@ body::after {
     opacity: 0.1;
 }
 /* стили текста */
-h1 {
-    font-size: 149px;
-    line-height: 128px;
-    letter-spacing: -6px;
-    text-align: center;
-    margin-top: 22.6px;
-}
 h2 {
     font-size: 102px;
     letter-spacing: -4%;
@@ -37,6 +30,7 @@ h2 {
 .section-1 {
     display: flex;
     justify-content: space-between;
+    height: 104px;
 }
 .section-1 p {
     font-size: 16px;
@@ -52,368 +46,42 @@ h2 {
 }
 /* секция 2 */
 .section-2 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+    height: 359px;
     justify-content: center;
+    position: relative;
 }
 .section-2 h3 {
     text-align: center;
-    margin-top: 29px;
-    line-height: 31px;
     font-size: 22px;
+    line-height: 31px;
+    margin-top: 31px;
 }
-.section-2 img {
-    position: absolute;
-    top: 319px;
-    left: 148px;
-    height: 840px;
-    width: 1138px;
-}
-.section-2 #us {
-    position: relative;
-    left: 925px;
-    top: 12px;
-    transform: rotate(14.3deg);
+.section-2 h1 {
+    font-size: 149px;
+    line-height: 128px;
+    letter-spacing: -6px;
     text-align: center;
-    width: 104px;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: -3%;
+    margin-top: 22px;
 }
-/* буквы в пицце */
-.section-2 #A {
-    position: relative;
-    font-size: 47px;
-    -webkit-text-stroke: 2px #EC1D23;
-    color: #F1EEE7;
-    transform: rotate(17deg);
-    left: 563px;
-    width: 37px;
-    top: 60px;
-}
-.section-2 #G {
-    position: relative;
-    font-size: 47px;
-    -webkit-text-stroke: 2px #EC1D23;
-    color: #F1EEE7;
-    transform: rotate(-70deg);
-    left: 465px;
-    width: 29px;
-    top: 215px;
-}
-.section-2 #J {
-    position: relative;
-    font-size: 28px;
-    -webkit-text-stroke: 2px #EC1D23;
-    color: #F1EEE7;
-    transform: rotate(70deg);
-    width: 32px;
-    left: 434px;
-    top: 321px;
-}
-.section-2 #f {
-    position: relative;
-    font-size: 47px;
-    -webkit-text-stroke: 2px #EC1D23;
-    color: #F1EEE7;
-    transform: rotate(40deg);
-    width: 22px;
-    left: 662px;
-    top: 293px;
-}
-.section-2 #M {
-    position: relative;
-    font-size: 36px;
-    -webkit-text-stroke: 2px #EC1D23;
-    color: #F1EEE7;
-    transform: rotate(-97deg);
-    width: 40px;
-    left: 814px;
-    top: 138px;  
-}
-.section-2 #R {
-    position: relative;
-    font-size: 32px;
-    -webkit-text-stroke: 2px #EC1D23;
-    color: #F1EEE7;
-    transform: rotate(8deg);
-    width: 23px;
-    left: 803px;
-    top: 366px; 
-}
-.section-2 #P {
-    position: relative;
-    font-size: 40px;
-    -webkit-text-stroke: 2px #EC1D23;
-    color: #F1EEE7;
-    transform: rotate(-9deg);
-    width: 32px;
-    left: 894px;
-    top: 251px; 
-}
-.section-2 #K {
-    position: relative;
-    font-size: 30px;
-    -webkit-text-stroke: 2px #EC1D23;
-    color: #F1EEE7;
-    transform: rotate(-32deg);
-    width: 23px;
-    left: 927px;
-    top: -146px; 
-}
-/* буквы по краям пиццы */
-.section-2 #Aa {
-    position: relative;
-    font-size: 46px;
-    left: 121px;
-    top: -303px; 
-    width: 64px;
-}
-.section-2 #Bb {
-    position: relative;
-    font-size: 46px;
-    left: 202px;
-    top: -278px; 
-    width: 64px;
-}
-.section-2 #Vv {
-    position: relative;
-    font-size: 46px;
-    left: 115px;
-    top: -182px; 
-    width: 61px;
-}
-.section-2 #Gg {
-    position: relative;
-    font-size: 46px;
-    width: 50px;
-    left: 159px;
-    top: -157px; 
-}
-.section-2 #Dd {
-    position: relative;
-    font-size: 46px;
-    width: 69px;
-    left: 68px;
-    top: -134px; 
-}
-.section-2 #Ee {
-    position: relative;
-    font-size: 46px;
-    width: 58px;
-    left: 113px;
-    top: -26px; 
-}
-.section-2 #Jj {
-    position: relative;
-    font-size: 46px;
-    width: 96px;
-    left: 204px;
-    top: 3px; 
-}
-.section-2 #Zz {
-    position: relative;
-    font-size: 46px;
-    width: 53px;
-    left: 335px;
-    top: 83px; 
-}
-.section-2 #Rr {
-    position: relative;
-    font-size: 46px;
-    width: 64px;
-    left: 1057px;
-    top: 36px; 
-}
-.section-2 #Oo {
-    position: relative;
-    font-size: 46px;
-    width: 71px;
-    left: 1109px;
-    top: -106px; 
-}
-.section-2 #Pp {
-    position: relative;
-    font-size: 46px;
-    width: 68px;
-    left: 1295px;
-    top: -253px;
-}
-.section-2 #Hh {
-    position: relative;
-    font-size: 46px;
-    width: 68px;
-    left: 1214px;
-    top: -428px;
-}
-.section-2 #Mm {
-    position: relative;
-    font-size: 46px;
-    width: 93px;
-    left: 1285px;
-    top: -545px;
-}
-.section-2 #Ll {
-    position: relative;
-    font-size: 46px;
-    width: 67px;
-    left: 1192px;
-    top: -732px;
-}
-.section-2 #Kk {
-    position: relative;
-    font-size: 46px;
-    width: 65px;
-    left: 1279px;
-    top: -837px;
-}
-.section-2 #Ii {
-    position: relative;
-    font-size: 46px;
-    width: 69px;
-    left: 1180px;
-    top: -934px;
-}
-/* секция 3 плакаты */
+/* секция 3 */
 .section-3 {
-    display: flex;
-    justify-content: flex-start;
+    height: 823px;
+    background-image: url(../images/pizza.svg);
     position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -64px;
+    font-size: 46px;
 }
-.section-3 div:nth-of-type(1) img {
-    padding: 0px 49px;
-    margin-top: -174px;
-}
-.section-3 div:nth-of-type(2) img {
-    margin-left: -31px;
-    margin-top: -174px;
-}
-.section-3 #pizzatext {
-    position: relative;
-    text-align: center;
-    font-size: 171px;
-    margin-top: -894px;
-    color: #F1EEE7;
-    letter-spacing: -7px;
-}
-.section-3 #hotspicy {
-    position: relative;
-    text-align: center;
-    font-size: 89px;
-    margin-top: -30px;
-    color: #F1EEE7;
-    letter-spacing: -4px;
-}
-.section-3 #fresh {
-    position: relative;
-    text-align: center;
-    font-size: 24px;
-    margin-top: 441px;
-    color: #F1EEE7;
-    letter-spacing: -1px;
-    line-height: 28px;
-    line-height: -1px;
-}
-.section-3 #text1 {
-    text-align: justify;
-    color: #F1EEE7;
-    font-size: 6px;
-    width: 260px;
-    line-height: 8px;
-    margin-left: 119px;
-    margin-top: 14px;
-}
-.section-3 #text2 {
-    text-align: justify;
-    color: #F1EEE7;
-    font-size: 6px;
-    width: 260px;
-    line-height: 8px;
-    margin-left: 390px;
-    margin-top: -32px;
-}
-.section-3 div:nth-of-type(3) img {
-    position: relative;
-    width: 446px;
-    height: 478px;
-    margin-top: 85px;
-    margin-left: -1219px;
-}
-.section-3 #pizzarus {
-    position: relative;
-    text-align: center;
-    font-size: 135px;
-    margin-top: -888px;
-    margin-left: -53px;
-    color: #F1EEE7;
-    letter-spacing: -5px;
-}
-.section-3 #hotrus {
-    position: relative;
-    text-align: center;
-    font-size: 79px;
-    margin-top: -16px;
-    margin-left: -43px;
-    color: #F1EEE7;
-    letter-spacing: -2px;
-}
-.section-3 #freshrus {
-    position: relative;
-    text-align: center;
-    font-size: 24px;
-    margin-top: 467px;
-    margin-left: -50px;
-    color: #F1EEE7;
-    letter-spacing: -1px;
-    line-height: 28px;
-    line-height: -1px;
-}
-.section-3 #text3 {
-    text-align: justify;
-    color: #F1EEE7;
-    font-size: 6px;
-    width: 260px;
-    line-height: 8px;
-    margin-left: 33px;
-    margin-top: 14px;
-}
-.section-3 #text4 {
-    text-align: justify;
-    color: #F1EEE7;
-    font-size: 6px;
-    width: 260px;
-    line-height: 8px;
-    margin-left: 305px;
-    margin-top: -32px;
-}
-.section-3 div:nth-of-type(4) img {
-    position: relative;
-    width: 529px;
-    height: 531px;
-    margin-top: 30px;
-    margin-left: -587px;
-}
-.section-3 div:nth-of-type(5){
-    position: relative;
-    width: 637px;
-    height: 460px;
-    left: -721px;
-    top: 544px;
-}
-.section-3 div:nth-of-type(6){
+.section-3 #Aa{
     position: absolute;
-    font-size: 22px;
-    width: 168px;
-    height: 62px;
-    margin-left: 51px;
-    margin-top: 808px;
-    line-height: 31px;
+    display: flex;
+    justify-content: space-between;
+    width: 428px;
+    height: 32px;
+    top: 101px;
+    left: 121px;
+    background-image: url(../images/line1.svg);
+    background-position: 85px 27px;
+    background-repeat: no-repeat;
 }
-
-
-
-
-
-
-
