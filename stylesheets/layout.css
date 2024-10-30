@@ -10,15 +10,6 @@ body {
     color: #EC1D23;
     position: relative;
 }
-/* body::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1440px;
-    height: 9797px;
-    opacity: 0.1;
-} */
 /* стили текста */
 h2 {
     font-size: 102px;
