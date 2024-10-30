@@ -15,9 +15,8 @@ body::after {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('../images/maket.svg');
     width: 1440px;
-    height: 9926px;
+    height: 9797px;
     opacity: 0.1;
 }
 /* стили текста */
@@ -1152,4 +1151,17 @@ h3 {
     position: absolute;
     font-size: 26px;
     margin: 58px 17px 42px 17px;
+}
+/* секция 15 */
+.section-15 {
+    height: 365px;
+    background-image: url(../images/haend.svg);
+    margin-top: -139px;
+    position: relative;
+}
+.section-15 p {
+    font-size: 22px;
+    padding-top: 174px;
+    padding-left: 51px;
+    line-height: 31px;
 }
