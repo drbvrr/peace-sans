@@ -10,7 +10,7 @@ body {
     color: #EC1D23;
     position: relative;
 }
-body::after {
+/* body::after {
     content: '';
     position: absolute;
     top: 0;
@@ -18,7 +18,7 @@ body::after {
     width: 1440px;
     height: 9797px;
     opacity: 0.1;
-}
+} */
 /* стили текста */
 h2 {
     font-size: 102px;
